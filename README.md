@@ -30,16 +30,16 @@ The dataset used is the **[SMSSpamCollection](https://archive.ics.uci.edu/ml/dat
 
 ## 📦 Installation
 
-1. Clone the repository:
+1. **Clone the repository:**
    ```bash
    git clone https://github.com/your-username/spam-classifier.git
    cd spam-classifier
    
- 2. Install dependencies:
+ 2. **Install dependencies:**
     
     pip install -r requirements.txt
 
-3. Run locally:
+3. **Run locally:**
 
    streamlit run app.py
 
