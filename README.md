@@ -6,7 +6,7 @@ A machine learning project that classifies email/SMS messages as **spam** or **n
 
 ## 🚀 Demo
 
-🌐 Live App: [https://spam-classifier-fardeen.streamlit.app/]
+🌐 Live App: https://spam-classifier-fardeen.streamlit.app/
 
 
 
@@ -34,6 +34,16 @@ The dataset used is the **[SMSSpamCollection](https://archive.ics.uci.edu/ml/dat
    ```bash
    git clone https://github.com/your-username/spam-classifier.git
    cd spam-classifier
+   
+ 2. Install dependencies:
+    
+    pip install -r requirements.txt
+
+3. Run locally:
+
+   streamlit run app.py
+
+
    
 ## 🔍 File Structure
 spam-classifier/
