@@ -32,8 +32,8 @@ The dataset used is the **[SMSSpamCollection](https://archive.ics.uci.edu/ml/dat
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/spam-classifier.git
-   cd spam-classifier
+   git clone https://github.com/Fedo-911/Spam-Classifier.git
+   cd Spam-Classifier
    
  2. **Install dependencies:**
     
