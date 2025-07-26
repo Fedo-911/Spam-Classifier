@@ -26,6 +26,26 @@ The dataset used is the **[SMSSpamCollection](https://archive.ics.uci.edu/ml/dat
 - Clean, minimal Streamlit web app
 - Model and vectorizer serialized with `joblib`
 
+## 🧠 Model Training
+
+The spam classification model was trained in **Google Colab** using the [SMSSpamCollection dataset](https://archive.ics.uci.edu/ml/datasets/SMS+Spam+Collection) from the UCI Machine Learning Repository.
+
+All training steps are included in the notebook:  
+📓 [`spam_classifier.ipynb`](notebooks/spam_classifier.ipynb)
+
+### What’s Inside the Notebook:
+1. **Dataset Download**: Downloads and loads the raw dataset from UCI.
+2. **Preprocessing**: Cleans and converts the labels (`ham` → 0, `spam` → 1).
+3. **Feature Extraction**: Uses `TfidfVectorizer` for numerical text representation.
+4. **Model Training**: Trains a `Multinomial Naive Bayes` model.
+5. **Evaluation**: Measures accuracy, precision, recall, and F1-score.
+6. **Model Export**: Saves both model and vectorizer as `.pkl` files using `joblib`.
+
+You can open and run this notebook in Google Colab to:
+- Retrain the model on the same dataset
+- Modify preprocessing or model type
+- Tune parameters
+- Save new versions for deployment
 
 
 ## 📦 Installation
